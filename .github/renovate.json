@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "workarounds:all",
+    ":ignoreUnstable",
+    ":prImmediately",
+    ":separateMajorReleases",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(fix)"
+  ],
+  "rangeStrategy": "bump",
+  "automerge": true,
+  "automergeType": "pr",
+  "automergeStrategy": "rebase",
+  "platformAutomerge": true,
+  "dependencyDashboard": true,
+  "labels": [
+    "dependencies"
+  ],
+  "commitMessageAction": "bump",
+  "reviewersFromCodeOwners": true
+}
