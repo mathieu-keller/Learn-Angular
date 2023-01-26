@@ -146,7 +146,7 @@
     symbol-observable "4.0.0"
     yargs "17.6.2"
 
-"@angular/common@^15.1.0":
+"@angular/common@^15.1.2":
   version "15.1.2"
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-15.1.2.tgz#fcb6a6e4d82738558f17aac8539d241215613f89"
   integrity sha512-1Ra6EoaZjPcdDsGBge3qSajO1ECYceX+2EWHdjvJ9ZEIaXsLNFMQBUMgJnjsnrojs9Gd3bxJ0WHkahij5/8WNA==
