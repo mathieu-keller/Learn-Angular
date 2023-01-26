@@ -204,7 +204,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/router@^15.1.0":
+"@angular/router@^15.1.2":
   version "15.1.2"
   resolved "https://registry.yarnpkg.com/@angular/router/-/router-15.1.2.tgz#b301e1500ef21a2cb5eb0574d3614658592cf46f"
   integrity sha512-p2tTHYvBsMaayJNWAZMBqrL7jwxs6NQaEDImBtMwnOnQr/M+LwQdAeNFfpky20ODZw0JwTW84q04l8klExq0kw==
