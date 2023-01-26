@@ -197,7 +197,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-browser@^15.1.0":
+"@angular/platform-browser@^15.1.2":
   version "15.1.2"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-15.1.2.tgz#b2f2b2cef7c2a31222cf2b84c300ab936e57705d"
   integrity sha512-eWyfUOFZ05vB0UfPUTPK7pPJZjFtbGZlJOea3IUqEohuyRqq3CqYCrv7SVXGKQVOx1qRA0Ckr9FOB8/qYbTq1A==
