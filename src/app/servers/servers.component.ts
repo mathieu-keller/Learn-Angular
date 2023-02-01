@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-servers',
@@ -9,7 +9,7 @@ export class ServersComponent {
   private _allowNewServer = false;
   private _serverCreationStatus = 'No server was created!';
 
-  private _serverName = '';
+  private _serverName = 'test server';
 
   get serverCreationStatus(): string {
     return this._serverCreationStatus;
@@ -25,16 +25,17 @@ export class ServersComponent {
     return this._serverName;
   }
 
-  onUpdateServerName(e: Event) {
-    this._serverName = (<HTMLInputElement>e.target).value;
- }
+
+  set serverName(value: string) {
+    this._serverName = value;
+  }
 
   onServerCreation() {
-    this._serverCreationStatus = 'server was created!';
+    this._serverCreationStatus = `server was created! Name is ${this.serverName}`;
   }
 
   constructor() {
-    setInterval(() => this._allowNewServer = !this._allowNewServer, 2000)
+    setTimeout(() => this._allowNewServer = !this._allowNewServer, 2000)
   }
 
 
