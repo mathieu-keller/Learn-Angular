@@ -1,22 +1,16 @@
-import {NgModule} from '@angular/core';
-import {BrowserModule} from '@angular/platform-browser';
-import {FormsModule} from '@angular/forms';
-import {AppComponent} from './app.component';
-import {ShowSecretComponent} from "./show-secret/show-secret.component";
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ShowSecretComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule,
-    FormsModule
+    BrowserModule
   ],
   providers: [],
-  bootstrap: [
-    AppComponent
-  ]
+  bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppModule { }

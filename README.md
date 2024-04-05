@@ -1,6 +1,6 @@
-# Learn Angular [Udemy](https://www.udemy.com/course/the-complete-guide-to-angular-2/)
+# Receipt
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
 
 ## Development server
 
