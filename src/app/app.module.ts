@@ -9,6 +9,7 @@ import { ReceiptListComponent } from './receipt/receipt-list/receipt-list.compon
 import { ReceiptDetailComponent } from './receipt/receipt-detail/receipt-detail.component';
 import { HeaderComponent } from './header/header.component';
 import { ReceiptItemComponent } from './receipt/receipt-list/receipt-item/receipt-item.component';
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -21,9 +22,10 @@ import { ReceiptItemComponent } from './receipt/receipt-list/receipt-item/receip
     HeaderComponent,
     ReceiptItemComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+    imports: [
+        BrowserModule,
+        NgOptimizedImage
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
