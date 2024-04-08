@@ -1,22 +1,22 @@
 import { Component } from '@angular/core';
-import {Receipt} from "../receipt";
+import {Recipe} from "../recipe";
 
 @Component({
-  selector: 'app-receipt-list',
-  templateUrl: './receipt-list.component.html',
-  styleUrl: './receipt-list.component.css'
+  selector: 'app-recipe-list',
+  templateUrl: './recipe-list.component.html',
+  styleUrl: './recipe-list.component.css'
 })
-export class ReceiptListComponent {
-  private _recipes: Receipt[] = [
+export class RecipeListComponent {
+  private _recipes: Recipe[] = [
     {name: '博多ラーメン', description: 'Famous Hakata Ramen only here!', imagePath: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVfEJVNbVVOAyK1neKpmBiCy4vCOMK1kZ5JFW_T5Gz7Q&s'}
   ];
 
 
-  get recipes(): Receipt[] {
+  get recipes(): Recipe[] {
     return this._recipes;
   }
 
-  set recipes(value: Receipt[]) {
+  set recipes(value: Recipe[]) {
     this._recipes = value;
   }
 }

@@ -4,23 +4,23 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
-import { ReceiptComponent } from './receipt/receipt.component';
-import { ReceiptListComponent } from './receipt/receipt-list/receipt-list.component';
-import { ReceiptDetailComponent } from './receipt/receipt-detail/receipt-detail.component';
+import { RecipeListComponent } from './recipe/recipe-list/recipe-list.component';
 import { HeaderComponent } from './header/header.component';
-import { ReceiptItemComponent } from './receipt/receipt-list/receipt-item/receipt-item.component';
+import { RecipeItemComponent } from './recipe/recipe-list/recipe-item/recipe-item.component';
 import {NgOptimizedImage} from "@angular/common";
+import {RecipeComponent} from "./recipe/recipe.component";
+import {RecipeDetailComponent} from "./recipe/recipe-detail/recipe-detail.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     ShoppingListComponent,
     ShoppingListEditComponent,
-    ReceiptComponent,
-    ReceiptListComponent,
-    ReceiptDetailComponent,
+    RecipeComponent,
+    RecipeListComponent,
+    RecipeDetailComponent,
     HeaderComponent,
-    ReceiptItemComponent
+    RecipeItemComponent
   ],
     imports: [
         BrowserModule,
